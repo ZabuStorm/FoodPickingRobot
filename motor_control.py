@@ -64,7 +64,7 @@ def drop_down(angle=90, speed=20):
     enable_torque()
     set_profile_velocity(speed)
     set_position(DXL_ID_1, -angle)  # Motor 1 moves counterclockwise
-    set_position(DXL_ID_2, angle)   # Motor 2 moves clockwise
+    set_position(DXL_ID_2, angle)   # Motor 2 moves clockwise (maybe)
     time.sleep(2)  
 
 
